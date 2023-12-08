@@ -113,7 +113,6 @@ def delete_purchase_order(request, po_id):
 def get_vendor_performance(request, vendor_id):
     vendor = get_object_or_404(Vendor, pk=vendor_id)
 
-    # Calculate performance metrics
     on_time_delivery_rate = vendor.calculate_on_time_delivery_rate()
     quality_rating_avg = vendor.calculate_quality_rating_avg()
     average_response_time = vendor.calculate_average_response_time()
@@ -125,7 +124,8 @@ def get_vendor_performance(request, vendor_id):
         'average_response_time': average_response_time,
         'fulfillment_rate': fulfillment_rate,
     }
-    print("DDDDDDDDDDDD",performance_data)
+
+    return Response(performance_data)
     
 
 def acknowledge_purchase_order(request, po_id):
@@ -143,6 +143,9 @@ def acknowledge_purchase_order(request, po_id):
     vendor.save()
 
     return Response({'message': 'Purchase order acknowledged successfully'})
+
+
+
 def vendor_list(request):
     vendors = Vendor.objects.all()
    
