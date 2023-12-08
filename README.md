@@ -15,7 +15,7 @@ These instructions will help you set up and run the project on your local machin
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/your-repo.git
+    git clone https://github.com/your-username/your-repo.git](https://github.com/Shashikanttt/Vendor-Management-System-with-Performance-Metrics.git)
     ```
 
 2. Navigate to the project directory:
