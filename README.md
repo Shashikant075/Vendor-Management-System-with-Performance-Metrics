@@ -1,98 +1,91 @@
-# Project Name
 
-Brief project description goes here.
+# vendor_management_project
 
-## Getting Started
 
-These instructions will help you set up and run the project on your local machine.
+Employee Management System that enables streamlined database handling, encompassing salary records, role assignments, and departmental information, thereby enhancing the overall organizational efficiency in managing employee data.
+## Features
 
-### Prerequisites
+- Employee Records: Maintain a detailed database of employee records, including personal information, contact details, and employment history.
 
-- List any software, libraries, or tools that need to be installed before running the project.
+- Salary Management: Easily manage and track salary records, including payroll processing, deductions, and bonuses, ensuring accurate and timely salary disbursement.
 
-### Installing
+- Role Assignments: Assign roles and responsibilities to employees, facilitating clear organizational hierarchies and defining who can access and modify specific data.
 
-1. Clone the repository:
+- Departmental Information: Organize employees into departments and divisions, making it simple to manage teams and collaborate effectively.
 
-    ```bash
-    git clone https://github.com/Shashikanttt/Vendor-Management-System-with-Performance-Metrics.git
-    ```
+- Search and Filtering: Robust search and filtering options allow users to quickly locate specific employees, making data retrieval efficient..
 
-2. Navigate to the project directory:
 
-    ```bash
-    cd your-repo
-    ```
 
-3. Create a virtual environment (optional but recommended):
+## Screenshots
 
-    ```bash
-    python -m venv venv
-    ```
 
-4. Activate the virtual environment:
+![Screenshot 2023-10-02 153625](https://github.com/Shashikanttt/Employee-management-system/assets/101270238/90b18d41-fea1-42ec-aced-9d1dd304da80)
 
-    - On Windows:
 
-        ```bash
-        venv\Scripts\activate
-        ```
+## Run Locally
 
-    - On macOS/Linux:
 
-        ```bash
-        source venv/bin/activate
-        ```
+To set up the Employee Management System, follow these steps:
 
-5. Install project dependencies:
+1. Clone the repository to your local machine.
 
-    ```bash
-    pip install -r requirements.txt
-    ```
 
-6. Run the development server:
 
-    ```bash
-    python manage.py runserver
-    ```
+```bash
+  git clone https://github.com/Shashikanttt/Vendor-Management-System-with-Performance-Metrics.git
+```
 
-The project should now be running locally. Open your web browser and navigate to http://localhost:8000/ to view the application.
+Go to the project directory
+
+```bash
+  cd vendor_management_project
+
+```
+
+Create Virtual Environment
+
+```bash
+  py -m venv venv   #install virtual enviroment
+  venv\scripts\activate   #activate virtual enviroment venv
+```
+Install
+
+```bash
+  pip install -r requirements.txt #install required packages
+  py manage.py migrate # run first migration
+```
+
+Start the server
+
+```bash
+  python manage.py runserver # run the server
+```
+
 
 ## Usage
 
-Explain how to use the project, including any configuration settings, commands, or additional steps.
 
-## Contributing
+To use the vendor_management_project, follow these steps:
 
-If you'd like to contribute to the project, please follow these steps:
+Access the system via the provided URL (e.g., http://127.0.0.1:8000/ ).
 
-1. Fork the repository on GitHub.
-2. Create a new branch for your feature or bug fix:
 
-    ```bash
-    git checkout -b feature-name
-    ```
 
-3. Make your changes and commit them:
+```bash
+    http://127.0.0.1:8000/api/](http://127.0.0.1:8000/api/vendors/
 
-    ```bash
-    git add .
-    git commit -m "Your commit message"
-    ```
+```
 
-4. Push the changes to your fork:
+Create a new vendor.
+● GET /api/vendors/: List all vendors.
+● GET /api/vendors/{vendor_id}/: Retrieve a specific vendor's details.
+● PUT /api/vendors/{vendor_id}/: Update a vendor's details.
+● DELETE /api/vendors/{vendor_id}/: Delete a vendor.
+ as needed.
 
-    ```bash
-    git push origin feature-name
-    ```
 
-5. Open a pull request on GitHub.
 
-## License
 
-This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
 
-## Acknowledgments
-
-- Mention any credits or sources of inspiration.
 
