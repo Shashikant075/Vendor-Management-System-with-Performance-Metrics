@@ -33,19 +33,19 @@ vendor.
 
 ## Screenshots
 
+# List all vendors
+
+![Screenshot 2023-12-08 195917](https://github.com/Shashikanttt/Vendor-Management-System-with-Performance-Metrics/assets/101270238/4345be41-a816-481a-b114-8b26cc30f629)
 
 
+# Create a purchase order
 
-![Screenshot 2023-12-08 195917](https://github.com/Shashikanttt/Vendor-Management-System-with-Performance-Metrics/assets/101270238/e27da56d-8e9d-4490-ac59-fad17ddafdac)
+![Screenshot 2023-12-08 203012](https://github.com/Shashikanttt/Vendor-Management-System-with-Performance-Metrics/assets/101270238/37bf2efe-f2b5-42bc-8884-5e993c3caeae)
 
+# vendor's details
 
+![Screenshot 2023-12-08 203852](https://github.com/Shashikanttt/Vendor-Management-System-with-Performance-Metrics/assets/101270238/de460cd5-366b-4d37-9ac0-fbcc749e6167)
 
-
-![Screenshot 2023-12-08 203012](https://github.com/Shashikanttt/Vendor-Management-System-with-Performance-Metrics/assets/101270238/c57202ad-36a2-4725-aaa9-abeaa6dd49ba)
-
-
-
-![Screenshot 2023-12-08 203852](https://github.com/Shashikanttt/Vendor-Management-System-with-Performance-Metrics/assets/101270238/47656327-c3c1-4483-bd60-b5ff40c600ca)
 
 
 ## Run Locally
